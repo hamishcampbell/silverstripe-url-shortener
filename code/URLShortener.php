@@ -14,7 +14,7 @@ class URLShortener extends Object {
 	
 	private static $default_class = 'SSURLShortener';
 	
-	private function get_instance() {
+	private static function get_instance() {
 		if(!self::$instance)
 			self::set_url_shortener(self::$default_class);
 		return self::$instance;
