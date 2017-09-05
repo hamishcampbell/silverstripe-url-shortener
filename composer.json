@@ -1,0 +1,17 @@
+{
+    "name": "hamishcampbell/silverstripe-url-shortener",
+    "description": "By default URL Shortener uses a URL segment of the current site to provide short urls",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "url", "shortener"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Hamish Campbell",
+            "email": "hn.campbell@gmail.com"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "~2.4",
+        "silverstripe/cms": "~2.4"
+    }
+}
